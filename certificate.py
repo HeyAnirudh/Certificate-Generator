@@ -2,7 +2,7 @@ import cv2
 import os
 import base64
 import streamlit as st
-from pathlib import Path
+
 font = cv2.FONT_HERSHEY_SIMPLEX
 fontScale = 3
 activities = ["Get certificate","About"]
