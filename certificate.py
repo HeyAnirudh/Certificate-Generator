@@ -19,7 +19,7 @@ def get_binary_file_downloader_html(bin_file, file_label='File'):
     href = f'<a href="data:application/octet-stream;base64,{bin_str}" download="{os.path.basename(bin_file)}">Download {file_label}</a>'
     return href
 def annotate(name):
-    certi = cv2.imread("images/img.png")
+    certi = cv2.imread("images//img.png")
     original = cv2.putText(certi, name, (710, 790),font,   fontScale, (0, 0, 0), thickness=5)
     cv2.imwrite("Certificate.jpg",original)
 
@@ -30,7 +30,7 @@ def annotate(name):
 
 if choice =="Get certificate":
     st.title("Get Your Certificate")
-    img=cv2.imread("images/apricus.png")
+    img=cv2.imread("images//apricus.png")
     na=st.text_input('Enter your name')
     annotate(na)
     #st.markdown(get_binary_file_downloader_html(original, 'Picture'), unsafe_allow_html=True)
