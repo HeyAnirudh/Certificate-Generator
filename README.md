@@ -78,10 +78,17 @@ Don't forget to give the project a star! Thanks again!
 
 
 # Contributors
-<p align="right">(<a href="#top">back to top</a>)</p>
-<a href = "https://github.com/HeyAnirudh/Certificate-Generator/graphs/contributors">
-  <img src = "https://contrib.rocks/image?repo=HeyAnirudh/Certificate-Generator"/>
+<h1 align=center> Projects Contributors ✨ </h1>
+    
+  <br>
+  
+  <a href="https://github.com/HeyAnirudh/Certificate-Generator/graphs/contributors">
+  <img src= "https://contrib.rocks/image?repo=HeyAnirudh/Certificate-Generator"/>
+   
 </a>
+  
+  <br>
+  
 
 [linkedin-url]:linkedin.com/in/heyanirudh
 [linkedin-shield]:  https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
