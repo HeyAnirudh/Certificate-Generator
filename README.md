@@ -77,13 +77,13 @@ Don't forget to give the project a star! Thanks again!
 <!-- CONTACT -->
 
 
-<h1 align=center> Projects Contributors ✨ </h1>
+<h1 align=center> Project Contributors ✨ </h1>
 <a href="https://github.com/HeyAnirudh/Certificate-Generator/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=HeyAnirudh/Certificate-Generator" />
 </a>
 
 <br><br>
-😃 **This Project had been a Part of**
+😃 **Open Source Programs this project has been a part of **
 
 | | |
 |---|---|
