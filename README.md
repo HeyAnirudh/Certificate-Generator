@@ -20,7 +20,7 @@
 </div>
 
 
-## About Project
+<h1 align=center> ## About Project </h1>
 ![Product Name Screen Shot]
 ### Hey fellas welcome to Certificate generator app!! this project mainly focuses on generating certificate.
 
@@ -31,7 +31,7 @@
 
 
 
-## Getting Started
+<h1 align=center> ## Getting Started </h1>
 
 Lets gets started by setting up this project on your device
 
@@ -61,7 +61,7 @@ Now as you have installled python lets move forward
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-## Contributing
+<h1 align=center> ## Contributing </h1>
 
 Open Source is the code built by the developer community for the developer community. Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are highly appreciated.
 
@@ -77,11 +77,12 @@ Don't forget to give the project a star! Thanks again!
 <!-- CONTACT -->
 
 
-<h1 align=center> Projects Contributors ✨ </h1>
+<h1 align=center> ##Projects Contributors ✨ </h1>
 <a href="https://github.com/HeyAnirudh/Certificate-Generator/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=HeyAnirudh/Certificate-Generator" />
 </a>
 
+<br><br>
 😃 **This Project had been a Part of**
 
 | | |
