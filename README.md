@@ -83,7 +83,7 @@ Don't forget to give the project a star! Thanks again!
 </a>
 
 <br><br>
-😃 **Open Source Programs this project has been a part of **
+😃 **Open Source Programs this project has been a part of**
 
 | | |
 |---|---|
