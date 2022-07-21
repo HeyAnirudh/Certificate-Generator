@@ -24,13 +24,13 @@
 ### Hey fellas welcome to Certificate generator app!! 
 ### This project mainly focuses on generating certificate.
 
-<br>
+
 # Built With 
 1.  [Python](https://www.python.org/)
 2.  [Streamlit](https://streamlit.io/)
 3.  [OpenCV](https://opencv.org/)
 
-<br>
+
 # Getting Started 
 
 Lets gets started by setting up this project on your device
