@@ -23,14 +23,14 @@
 ![Product Name Screen Shot]
 ### Hey fellas welcome to Certificate generator app!! this project mainly focuses on generating certificate.
 
-<h1 align=center> About Project </h1>
-### Hey fellas welcome to Certificate generator app!! this project mainly focuses on generating certificate.
+<h1 align=center> About Project </h1><br>
+### Hey fellas welcome to Certificate generator app!! this project mainly focuses on generating certificate.<br>
 ![Product Name Screen Shot]
 
-<h1 align = center> Built With </h1>
-1.  [Python](https://www.python.org/)
-2.  [Streamlit](https://streamlit.io/)
-3.  [OpenCV](https://opencv.org/)
+<h1 align = center> Built With </h1><br>
+1.  [Python](https://www.python.org/)<br>
+2.  [Streamlit](https://streamlit.io/)<br>
+3.  [OpenCV](https://opencv.org/)<br>
 
 
 
