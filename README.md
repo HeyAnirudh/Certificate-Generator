@@ -19,12 +19,15 @@
   </p>
 </div>
 
+## About Project
+![Product Name Screen Shot]
+### Hey fellas welcome to Certificate generator app!! this project mainly focuses on generating certificate.
 
 <h1 align=center> About Project </h1>
 ![Product Name Screen Shot]
 ### Hey fellas welcome to Certificate generator app!! this project mainly focuses on generating certificate.
 
-# Built With
+<h1 align = center> Built With </h1>
 * [Python](https://www.python.org/)
 * [Streamlit](https://streamlit.io/)
 * [OpenCV](https://opencv.org/)
@@ -35,13 +38,13 @@
 
 Lets gets started by setting up this project on your device
 
-### Prerequisites
+## *Prerequisites*
 
 Your computer must have Python installed 
 
 * [Download Python](https://www.python.org/downloads/)
 
-### Installation
+## *Installation*
 
 Now as you have installled python lets move forward
 1. Have git or github desktop installed in your computer.
@@ -77,17 +80,19 @@ Don't forget to give the project a star! Thanks again!
 <!-- CONTACT -->
 
 
+<br><br>
+😃 **Open Source Programs: **
+
+| | |
+|---|---|
+|<img width = 100 src = "https://user-images.githubusercontent.com/94545831/178086715-dd29081c-f577-4bb6-a7c6-493d0f09b4a6.png"/> | **Hackclub RAIT**|
+
+
 <h1 align=center> Project Contributors ✨ </h1>
 <a href="https://github.com/HeyAnirudh/Certificate-Generator/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=HeyAnirudh/Certificate-Generator" />
 </a>
 
-<br><br>
-😃 **Open Source Programs this project has been a part of**
-
-| | |
-|---|---|
-|<img width = 100 src = "https://user-images.githubusercontent.com/94545831/178086715-dd29081c-f577-4bb6-a7c6-493d0f09b4a6.png"/> | **Hackclub RAIT**|
 
 [linkedin-url]:linkedin.com/in/heyanirudh
 [linkedin-shield]:  https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
