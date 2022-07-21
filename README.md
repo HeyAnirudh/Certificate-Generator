@@ -19,18 +19,18 @@
   </p>
 </div>
 
-<h1 align = center> ## About Project </h1>
+## About Project
 ![Product Name Screen Shot]
 ### Hey fellas welcome to Certificate generator app!! this project mainly focuses on generating certificate.
 
 <h1 align=center> About Project </h1>
-![Product Name Screen Shot]
 ### Hey fellas welcome to Certificate generator app!! this project mainly focuses on generating certificate.
+![Product Name Screen Shot]
 
 <h1 align = center> Built With </h1>
-* [Python](https://www.python.org/)
-* [Streamlit](https://streamlit.io/)
-* [OpenCV](https://opencv.org/)
+1.  [Python](https://www.python.org/)
+2.  [Streamlit](https://streamlit.io/)
+3.  [OpenCV](https://opencv.org/)
 
 
 
@@ -81,7 +81,7 @@ Don't forget to give the project a star! Thanks again!
 
 
 <br><br>
-😃 **Open Source Programs: **
+😃 **Open Source Programs:**
 
 | | |
 |---|---|
