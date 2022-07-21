@@ -42,6 +42,7 @@ def annotate(name):
     if (clicked == "Image_2"):
         path = "certificate_templates\\new_Certificate-template-2.png"
 
+    
     certi = cv2.imread(path)
     original = cv2.putText(certi, name, (600, 790),font,   fontScale, (0, 0, 0), thickness=5)
     cv2.imwrite("Certificate.jpg",original)
@@ -55,7 +56,10 @@ def annotate(name):
 if choice =="Get certificate":
     st.title("Get Your Certificate")
     na=st.text_input('Enter your name')
-    annotate(na)
+    if len(na)>0:
+        annotate(na)
+    else:
+        st.write("Please enter Your name in the Above Field To download the Certificate")    
     #st.markdown(get_binary_file_downloader_html(original, 'Picture'), unsafe_allow_html=True)
 
 
