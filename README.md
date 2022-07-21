@@ -27,24 +27,24 @@
 ### Hey fellas welcome to Certificate generator app!! this project mainly focuses on generating certificate.<br>
 ![Product Name Screen Shot]
 
-<h1 align = center> Built With </h1><br>
-1.  [Python](https://www.python.org/)<br>
-2.  [Streamlit](https://streamlit.io/)<br>
-3.  [OpenCV](https://opencv.org/)<br>
+## Built With 
+1.  [Python](https://www.python.org/)
+2.  [Streamlit](https://streamlit.io/)
+3.  [OpenCV](https://opencv.org/)
 
 
 
-<h1 align=center> Getting Started </h1>
+## Getting Started 
 
 Lets gets started by setting up this project on your device
 
-## *Prerequisites*
+# *Prerequisites*
 
 Your computer must have Python installed 
 
 * [Download Python](https://www.python.org/downloads/)
 
-## *Installation*
+# *Installation*
 
 Now as you have installled python lets move forward
 1. Have git or github desktop installed in your computer.
@@ -64,7 +64,7 @@ Now as you have installled python lets move forward
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-<h1 align=center> Contributing </h1>
+## Contributing
 
 Open Source is the code built by the developer community for the developer community. Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are highly appreciated.
 
@@ -81,14 +81,14 @@ Don't forget to give the project a star! Thanks again!
 
 
 <br><br>
-😃 **Open Source Programs:**
+ ## 😃 Open Source Programs:
 
 | | |
 |---|---|
 |<img width = 100 src = "https://user-images.githubusercontent.com/94545831/178086715-dd29081c-f577-4bb6-a7c6-493d0f09b4a6.png"/> | **Hackclub RAIT**|
 
 
-<h1 align=center> Project Contributors ✨ </h1>
+## Project Contributors ✨
 <a href="https://github.com/HeyAnirudh/Certificate-Generator/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=HeyAnirudh/Certificate-Generator" />
 </a>
