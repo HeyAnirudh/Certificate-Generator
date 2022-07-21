@@ -19,7 +19,7 @@
   </p>
 </div>
 
-## About Project
+<h1 align = center> ## About Project </h1>
 ![Product Name Screen Shot]
 ### Hey fellas welcome to Certificate generator app!! this project mainly focuses on generating certificate.
 
