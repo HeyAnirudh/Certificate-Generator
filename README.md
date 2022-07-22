@@ -1,9 +1,7 @@
-
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Issues][issues-shield]][issues-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
 
 <br />
 <div align="center">
@@ -19,31 +17,34 @@
   </p>
 </div>
 
+# About Project
 
-## About Project
 ![Product Name Screen Shot]
-### Hey fellas welcome to Certificate generator app!! this project mainly focuses on generating certificate.
+
+### Hey fellas welcome to Certificate generator app!!
+
+### This project mainly focuses on generating certificate.
 
 # Built With
-* [Python](https://www.python.org/)
-* [Streamlit](https://streamlit.io/)
-* [OpenCV](https://opencv.org/)
 
+1.  [Python](https://www.python.org/)
+2.  [Streamlit](https://streamlit.io/)
+3.  [OpenCV](https://opencv.org/)
 
-
-## Getting Started
+# Getting Started
 
 Lets gets started by setting up this project on your device
 
-### Prerequisites
+## **Prerequisites**
 
-Your computer must have Python installed 
+Your computer must have Python installed
 
-* [Download Python](https://www.python.org/downloads/)
+- [Download Python](https://www.python.org/downloads/)
 
-### Installation
+## **Installation**
 
 Now as you have installled python lets move forward
+
 1. Have git or github desktop installed in your computer.
 2. Clone the repo
    ```sh
@@ -60,8 +61,7 @@ Now as you have installled python lets move forward
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-## Contributing
+# Contributing
 
 Open Source is the code built by the developer community for the developer community. Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are highly appreciated.
 
@@ -76,19 +76,26 @@ Don't forget to give the project a star! Thanks again!
 
 <!-- CONTACT -->
 
+<br><br>
 
-# Contributors
-<p align="right">(<a href="#top">back to top</a>)</p>
-<a href = "https://github.com/HeyAnirudh/Certificate-Generator/graphs/contributors">
-  <img src = "https://contrib.rocks/image?repo=HeyAnirudh/Certificate-Generator"/>
+# 😃 Open Source Programs:
+
+|                                                                                                                                  |                   |
+| -------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
+| <img width = 100 src = "https://user-images.githubusercontent.com/94545831/178086715-dd29081c-f577-4bb6-a7c6-493d0f09b4a6.png"/> | **Hackclub RAIT** |
+
+# Project Contributors ✨
+
+<a href="https://github.com/HeyAnirudh/Certificate-Generator/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=HeyAnirudh/Certificate-Generator" />
 </a>
 
-[linkedin-url]:linkedin.com/in/heyanirudh
-[linkedin-shield]:  https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: linkedin.com/in/heyanirudh
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [issues-shield]: https://img.shields.io/github/issues/HeyAnirudh/Certificate-Generator.svg?style=for-the-badge
-[issues-url]:https://github.com/HeyAnirudh/Certificate-Generator/issues
+[issues-url]: https://github.com/HeyAnirudh/Certificate-Generator/issues
 [forks-url]: https://github.com/HeyAnirudh/Certificate-Generator/network/members
 [contributors-shield]: https://img.shields.io/github/contributors/HeyAnirudh/Certificate-Generator.svg?style=for-the-badge
 [contributors-url]: https://github.com/HeyAnirudh/Certificate-Generator/graphs/contributors
-[forks-shield]:https://img.shields.io/github/forks/HeyAnirudh/Certificate-Generator.svg?style=for-the-badge
-[Product Name Screen Shot]: images/demo.png
+[forks-shield]: https://img.shields.io/github/forks/HeyAnirudh/Certificate-Generator.svg?style=for-the-badge
+[product name screen shot]: images/demo.png
