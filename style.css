@@ -1,0 +1,16 @@
+.css-znku1x a {
+    text-decoration: none;
+    color: hsl(353, 12%, 15%);
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 7px;
+}
+
+.css-znku1x a:hover {
+    color: hsl(352, 80%, 56%);
+    border: 1px solid hsl(352, 80%, 56%);
+}
+.css-znku1x a:active {
+    background-color: hsl(352, 89%, 59%);
+    color: white;
+}
