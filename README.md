@@ -63,7 +63,7 @@ Now as you have installled python lets move forward
 
 # Demo(Video)
 
-(https://user-images.githubusercontent.com/79047521/180502677-3debe413-4ebf-491f-8c95-ef37960d8538.mp4)
+https://user-images.githubusercontent.com/79047521/180502677-3debe413-4ebf-491f-8c95-ef37960d8538.mp4
 
 
 # Contributing
