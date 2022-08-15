@@ -28,7 +28,7 @@ def annotate(name):
     # this line of code is used to display the Images on the site which are clickable
     st.write("Select Below Templates")
     content = """
-                    <a id="Image_1" href="#"><img src="https://i.ibb.co/5WvJgFQ/new-Certificate-template-1.png" alt="new-Certificate-template-1" border="0" width="300px" aspect-ratio="16:9" ></a>
+                    <a id="Image_1" href="#"><img src="https://i.ibb.co/qgcTHH6/new-Certificate-template-1.png" alt="new-Certificate-template-1" border="0" width="300px" aspect-ratio="16:9" ></a>
 
                     <a id="Image_2" href="#"><img src="https://i.ibb.co/CmhrK9d/new-Certificate-template-2.png" alt="new-Certificate-template-2" border="0" width="300px" aspect-ratio="16:9" ></a>
             """
