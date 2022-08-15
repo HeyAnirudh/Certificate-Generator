@@ -31,6 +31,8 @@ def annotate(name):
                     <a id="Image_1" href="#"><img src="https://i.ibb.co/5WvJgFQ/new-Certificate-template-1.png" alt="new-Certificate-template-1" border="0" width="300px" aspect-ratio="16:9" ></a>
 
                     <a id="Image_2" href="#"><img src="https://i.ibb.co/CmhrK9d/new-Certificate-template-2.png" alt="new-Certificate-template-2" border="0" width="300px" aspect-ratio="16:9" ></a>
+
+                    <a id="Image_3" href="#"><img src="https://i.ibb.co/hgqg4Hs/Certificate-template-3.png" alt="Certificate-template-3" border="0" width="300px" aspect-ratio="16:9" ></a>
             """
     # we store the Id of the clicked image in Clicked Variable 
     clicked = click_detector(content)
@@ -45,10 +47,16 @@ def annotate(name):
         path = "certificate_templates\\new_Certificate-template-1.png"
     if (clicked == "Image_2"):
         path = "certificate_templates\\new_Certificate-template-2.png"
+    if (clicked == "Image_3"):
+        path = "certificate_templates\\Certificate-template-3.png"
 
     
     certi = cv2.imread(path)
-    original = cv2.putText(certi, name, (600, 790),font,   fontScale, (0, 0, 0), thickness=5)
+
+    if(clicked=="Image_3"):
+        original = cv2.putText(certi, name, (600, 850),font,   fontScale, (255, 255, 255), thickness=5)
+    else:
+        original = cv2.putText(certi, name, (600, 790),font,   fontScale, (0, 0, 0), thickness=5)
     cv2.imwrite("Certificate.jpg",original)
 
     
