@@ -3,6 +3,7 @@ import os
 import base64
 import streamlit as st
 from st_click_detector import click_detector
+from st_clickable_images import clickable_images
 import numpy
 import sys
 from PIL import Image, ImageDraw
@@ -25,35 +26,37 @@ def get_binary_file_downloader_html(bin_file, file_label='File'):
     return href
 
 def annotate(name):
-    # this line of code is used to display the Images on the site which are clickable
-    st.write("Select Below Templates")
-    content = """
-                    <a id="Image_1" href="#"><img src="https://i.ibb.co/5WvJgFQ/new-Certificate-template-1.png" alt="new-Certificate-template-1" border="0" width="300px" aspect-ratio="16:9" ></a>
+    # using Clickable Images to Make Displaying Templates to be Responsive
+    images = []
+    for file in ["certificate_templates\\new_Certificate-template-1.png", "certificate_templates\\new_Certificate-template-2.png","certificate_templates\\Certificate-template-3.png"]:
+        with open(file, "rb") as image:
+            encoded = base64.b64encode(image.read()).decode()
+            images.append(f"data:image/jpeg;base64,{encoded}")
 
-                    <a id="Image_2" href="#"><img src="https://i.ibb.co/CmhrK9d/new-Certificate-template-2.png" alt="new-Certificate-template-2" border="0" width="300px" aspect-ratio="16:9" ></a>
-
-                    <a id="Image_3" href="#"><img src="https://i.ibb.co/hgqg4Hs/Certificate-template-3.png" alt="Certificate-template-3" border="0" width="300px" aspect-ratio="16:9" ></a>
-            """
-    # we store the Id of the clicked image in Clicked Variable 
-    clicked = click_detector(content)
-    # st.markdown(f"**{clicked} clicked**" )
+    clicked = clickable_images(
+    images,
+    titles=[f"Template #{str(i+1)}" for i in range(3)],
+    div_style={"display": "flex", "justify-content": "center", "flex-wrap": "wrap"},
+    img_style={"margin": "5px", "height": "200px"},
+    )
+    # clicked variable Stores the Id of the image clicked.
 
     # the path will be default to the defualt image
     path = "images\\img.png"
 
     # we cross check id with the paths available and assign the path for the selected image
 
-    if(clicked == "Image_1"):
+    if(clicked == 0):
         path = "certificate_templates\\new_Certificate-template-1.png"
-    if (clicked == "Image_2"):
+    if (clicked == 1):
         path = "certificate_templates\\new_Certificate-template-2.png"
-    if (clicked == "Image_3"):
+    if (clicked == 2):
         path = "certificate_templates\\Certificate-template-3.png"
 
     
     certi = cv2.imread(path)
 
-    if(clicked=="Image_3"):
+    if(clicked==2):
         original = cv2.putText(certi, name, (600, 850),font,   fontScale, (255, 255, 255), thickness=5)
     else:
         original = cv2.putText(certi, name, (600, 790),font,   fontScale, (0, 0, 0), thickness=5)
